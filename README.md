@@ -1,7 +1,8 @@
 // The aim of this code is to practice object sharing concept in C++.I implemented three classes: account, parent, child. The parents and the child will share a single account and perform operations on it. The operations are explained below.
 
+*************
+Program Flow
 
-2.	Program Flow
 There will be three classes to implement. 
 1-	Account:
 This class will implement a basic account object. There will be three member variables and they will be double values. The members are: balance, limit, debt. 
@@ -16,8 +17,8 @@ Note: The available account limit is calculated as limit – debt.
 
 3- Child: This class will implement a basic child object. The child can only display the account info (the balance and the available limit) and spend money. While spending money, a child can only spend up to 200TL. Otherwise, an error message will be displayed. 
 
-
-3.	Sample Runs
+*************************************************
+Sample Runs
 The given source file produces the following output.
 
 Lily has deposited 50TL.
