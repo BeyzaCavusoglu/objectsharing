@@ -11,8 +11,11 @@ This class will implement a basic account object. There will be three member var
 2-	Parent: This class will implement a basic parent object. There will be two member variables: name and account. The parent can perform the following functions:
 •	printAccountInfo() : This function will display the current information about the account. For the exact output, please check Sample Runs. 
 Note: The available account limit is calculated as limit – debt.
+
 •	depositMoney(double) : This function will deposit the given amount to the account. After the deposit, the balance will be increased by the given amount.
+
 •	spendMoney(double) : This function will try to spend the given amount of money. If the balance is more than the amount to spent, only balance will decrease. If there are not enough money in balance, the remaining money will be added to debt. If the debt exceeds the limit, an error message will be prompted and no money will be spent.
+
 •	payDebt(double) : This function will try to pay the given amount of debt. If the given amount is more than the current debt, an error message will be prompted. Otherwise, the debt will be paid.
 
 3- Child: This class will implement a basic child object. The child can only display the account info (the balance and the available limit) and spend money. While spending money, a child can only spend up to 200TL. Otherwise, an error message will be displayed. 
