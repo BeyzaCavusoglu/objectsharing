@@ -10,6 +10,7 @@ This class will implement a basic account object. There will be three member var
 
 
 2-	Parent: This class will implement a basic parent object. There will be two member variables: name and account. The parent can perform the following functions:
+
 •	printAccountInfo() : This function will display the current information about the account. For the exact output, please check Sample Runs. 
 Note: The available account limit is calculated as limit – debt.
 
