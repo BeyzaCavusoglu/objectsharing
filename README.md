@@ -3,7 +3,8 @@
 *************
 Program Flow
 
-There will be three classes to implement. 
+There will be three classes to implement:
+
 1-	Account:
 This class will implement a basic account object. There will be three member variables and they will be double values. The members are: balance, limit, debt. 
 
